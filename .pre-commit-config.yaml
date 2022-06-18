@@ -1,0 +1,21 @@
+repos:
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v2.7.1
+    hooks:
+      - id: prettier
+        args: ["--no-config", "--ignore-path", ".eslintignore", "--write"]
+        additional_dependencies:
+          - prettier@2.7.1
+          - prettier-plugin-svelte@2.7.0
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v8.17.0
+    hooks:
+      - id: eslint
+        args: ["--fix"]
+        files: \.svelte|js$
+        types: [file]
+        additional_dependencies:
+          - eslint@8.17.0
+          - eslint-plugin-jest@26.5.3
+          - eslint-plugin-svelte3@4.0.0
+          - eslint-config-prettier@8.5.0
