@@ -1,0 +1,15 @@
+dist/
+node_modules/
+# NPM cache
+.npm
+.eslintcache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+logs
+*.log
+npm-debug.log*
