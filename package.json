@@ -1,0 +1,24 @@
+{
+  "name": "tradie-jobs-interview-task",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest src",
+    "test:watch": "npm run test -- --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "babel-jest": "^28.1.1",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "svelte": "^3.44.0",
+    "svelte-jester": "^2.3.2",
+    "vite": "^2.9.9"
+  }
+}
