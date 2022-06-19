@@ -2,7 +2,7 @@
   <nav>
     <a href="/" class="brand"><h1>TJ</h1></a>
     <a
-      href="https://github.com/ChadoNihi/tradie-jobs-interview-task"
+      href="https://github.com/ChadoNihi/tradie-jobs-interview-task#tradie-jobs-tj-interview-task-app"
       target="_blank">About</a
     >
   </nav>
